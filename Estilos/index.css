@@ -68,23 +68,22 @@ img{
 .experience__line{
     display: block;
     width: 2px;
-    height: 132%;
+    height: 100%;
     background-color: rgb(19, 63, 112);
     transform: translate(5px,0);
-}
-.experience__line:last-child:after{
-    height: 300%;
 }
 .icono{
     background-color: white;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-}
-.icono_content{
     margin-left: -40px;
 }
+.icono_content{
+    margin-left: 10px;
+}
 .container{
+    min-width: 960px;
     max-width: 960px;
     margin: auto;
 }
@@ -99,4 +98,9 @@ h1{
 a{
     color: white;
     text-decoration: none;
+}
+.contactos{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
 }
